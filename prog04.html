@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="efectos.css" rel="stylesheet" type="text/css">
+	<title>Operaciones</title>
+	<script src="prog05_checkbox.js" type="text/JavaScript"> </script>
+</head>
+<body><center>
+	<h1 class="encabezado">Funcionamiento del check box</h1>
+	<br><br>
+	<table border="3" width="70%">
+		<form name="animales">
+		<tr align="center">
+			<td><p>Selececiona tus animales favoritos, pueden ser varios</p>
+			</td>
+			<td>
+				<table width="60%">
+					<tr>
+						<td><input name="a1" type="checkbox"></td>
+						<td><p>Perro</p></td>
+					</tr>
+					<tr>
+						<td><input name="a2" type="checkbox"></td>
+						<td><p>Gato</p></td>
+					</tr>
+					<tr>
+						<td><input name="a3" type="checkbox"></td>
+						<td><p>Patito</p></td>
+					</tr>
+					<tr>
+						<td><input name="a4" type="checkbox"></td>
+						<td><p>Pez</p></td>
+					</tr>
+
+</table>
+</td>
+</tr>
+<tr align="center">
+	<td><p>Animales seleccionados</p></td>
+	<td><textarea name="as"cols="20"rows="5" class="campo" disabled="true" style="background-color:gray;"></textarea></td>
+</tr>
+<tr align="center">
+	<td><input name="b_ejecutar" type="button" class="boton_azul" value="Ejecutar" onClick="ejecutar()"></td>
+	<td><input name="b_reinicio" type="reset" class="boton_azul" value="Reinicio"></td>
+</tr>
+</form>
+</table>
+</center></body>
+</html>
+
